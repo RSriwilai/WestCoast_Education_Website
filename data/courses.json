@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "courseNumber": 1001,
+        "title": "Introduktion till JavaScript",
+        "description": "En beskrivning kommer att komma här",
+        "length": 40,
+        "category": "programmering"
+    },
+    {
+        "id": 2,
+        "courseNumber": 1002,
+        "title": "Introduktion till C#",
+        "description": "En beskrivning kommer att komma här",
+        "length": 40,
+        "category": "programmering"
+    },
+    {
+        "id": 3,
+        "courseNumber": 1003,
+        "title": "Introduktion till HTML",
+        "description": "En beskrivning kommer att komma här",
+        "length": 40,
+        "category": "programmering"
+    },
+    {
+        "id": 4,
+        "courseNumber": 1004,
+        "title": "Introduktion till CSS",
+        "description": "En beskrivning kommer att komma här",
+        "length": 40,
+        "category": "programmering"
+    },
+    {
+        "id": 5,
+        "courseNumber": 1005,
+        "title": "Avancerad CSS",
+        "description": "En beskrivning kommer att komma här",
+        "length": 40,
+        "category": "programmering"
+    }
+]
