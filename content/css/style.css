@@ -183,6 +183,7 @@ body {
     width: 250px;
     height: 250px;
     margin: 10px;
+    cursor:pointer;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
 
 }
@@ -253,8 +254,11 @@ body {
 
 
 
+
+
+
 /* DESKTOP RESPONESIVE */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 999px) {
 
 
    /*----------FLEX CONTAINER AND ITEMS----------*/
@@ -377,15 +381,13 @@ body {
     }
 
     .offers-item1{
-        margin: unset;
-        cursor:pointer;
-    
+        margin: unset;    
     }
 
     /*------------ROW ITEM 3 ------------*/
 
     .item3-container {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 
