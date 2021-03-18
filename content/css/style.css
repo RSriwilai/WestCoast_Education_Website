@@ -29,7 +29,7 @@ body {
 
 .row-item-landing-page {
     position: relative;
-    background-image: url(/content/img/students.jpg);
+    background-image: url(../img/students.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
