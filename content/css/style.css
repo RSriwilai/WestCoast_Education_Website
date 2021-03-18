@@ -60,19 +60,24 @@ body {
 }
 
 
-
 .flex-container-offers {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+    background: rgb(231, 231, 231);
 }
 
 .row-item3 {
-    width: 80%;
-    height: 50px;
-    background-color: peru;
+    width: 90%;
+    margin: 15px;
 }
 
 
@@ -177,15 +182,47 @@ body {
     padding-top: 30px;
     width: 250px;
     height: 250px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
+
 }
 
 .offers-item1 h3 {
     margin: 10px;
 }
 
+/*----------------ROW ITEM 3 ---------------*/
+
+.item3-text h1 {
+    margin: 20px 0;
+}
+
+.item3-text {
+    margin-bottom: 20px;
+}
+
+.item3-img img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+}
 
 
+/*---------------- ROW ITEM 4 --------------*/
 
+.item4-text h1 {
+    margin: 20px 0;
+}
+
+.item4-text {
+    margin-bottom: 20px;
+}
+
+.item4-img img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+}
 
 
 
@@ -203,7 +240,15 @@ body {
         width: 100%;
         text-align: center;
         padding: 20px;
+    }
 
+    .footer a {
+        text-decoration: none;
+        color: rgb(150, 68, 53);
+    }
+
+    .footer a:hover {
+        color: rgb(56, 56, 56);
     }
 
 
@@ -233,16 +278,21 @@ body {
     }
 
     .row-item2 {
-        
+        margin-bottom: 100px;
     }
 
     .flex-container-offers {
+        padding-bottom: unset;
         gap:3%;
+    }
+    
+    .wrapper {
+        padding: 100px;
     }
 
     .row-item3 {
-
-        
+        margin: unset;
+        width: 100%;
     }
 
     /*----------------NAVBAR------------------*/
@@ -287,19 +337,19 @@ body {
 
 
     
-/*--------------ROW LANDING PAGE-----------*/
-.welcome-text-landing {
-    top: 280px;
-}
-.welcome-text-landing h1 {
-    font-size: 36px;
-}
+    /*--------------ROW LANDING PAGE-----------*/
+    .welcome-text-landing {
+        top: 280px;
+    }
+    .welcome-text-landing h1 {
+        font-size: 36px;
+    }
 
-.btn {
-    padding: 8px 18px;
-    margin: 20px 0;
+    .btn {
+        padding: 8px 18px;
+        margin: 20px 0;
 
-}
+    }
 
     /*---------------ROW - WELCOME------*/
 
@@ -326,7 +376,62 @@ body {
         font-weight: 300;
     }
 
+    .offers-item1{
+        margin: unset;
+        cursor:pointer;
+    
+    }
 
+    /*------------ROW ITEM 3 ------------*/
+
+    .item3-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .item3-text h1 {
+        margin: 20px 0;
+    }
+    
+    .item3-text {
+        float: left;
+        text-align: center;
+        width: 50%;
+        height: 400px;
+        padding-top: 50px;
+        padding: 50px;
+        margin-bottom: unset;
+    }
+    
+    .item3-img img{
+        float: right;
+        width: 50%;
+        height: 400px;
+    }
+
+    /*-------------ROW ITEM 4 -------------------*/
+
+
+
+    .item4-text h1 {
+        margin: 20px 0;
+    }
+    
+    .item4-text {
+        float: right;
+        text-align: center;
+        width: 50%;
+        height: 400px;
+        padding-top: 50px;
+        padding: 50px;
+        margin-bottom: unset;
+    }
+    
+    .item4-img img{
+        float: left;
+        width: 50%;
+        height: 400px;
+    }
 
 
 
