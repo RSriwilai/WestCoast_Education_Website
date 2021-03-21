@@ -6,51 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>West Coast Education</title>
     <link rel="stylesheet" href="./content/css/style.css">
+    <link rel="stylesheet" href="./content/css/courses.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
 </head>
 <body>
+    <section class="row-item-navbar">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <h1><a href="index.html" class="navbar-logo">WestCoast Education</a></h1>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index.html" class="nav-links nav-hover">Hem</a>
+                </li>
+                <li class="on-current-page"> 
+                    <a href="courses.html" class="nav-links nav-hover">Våra utbildningar</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links nav-hover">Ansökan</a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-links nav-hover">Om oss</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links nav-hover">Logga in</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links nav-hover">Skapa ett konto</a>
+                </li>
+
+            </ul>
+        </nav>
+    </section>
     <section class="container">
-        <section class="row-item-navbar">
-            <nav class="navbar">
-                <span class="navbar-toggle" id="js-navbar-toggle">
-                    <i class="fas fa-bars"></i>
-                </span>
-                <h1><a href="index.html" class="navbar-logo">WestCoast Education</a></h1>
-                <ul class="main-nav" id="js-menu">
-                    <li>
-                        <a href="index.html" class="nav-links nav-hover">Hem</a>
-                    </li>
-                    <li class="on-current-page"> 
-                        <a href="courses.html" class="nav-links nav-hover">Våra utbildningar</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-links nav-hover">Ansökan</a>
-                    </li>
-                    <li>
-                        <a href="about.html" class="nav-links nav-hover">Om oss</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-links nav-hover">Logga in</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-links nav-hover">Skapa ett konto</a>
-                    </li>
-    
-                </ul>
-            </nav>
-        </section>
-        <section class="row-item1"></section>
-        <section class="row-item2"></section>
-        <section class="row-item3"></section>
 
 
-        <section class="footer">
-            <hr>
-            <p class="footer-text">© 2021 WestCoast Education <br> Coded by <a class="text-decoration" target="_blank" rel="noopener noreferrer" href="https://rsriwilai.github.io/Rattanachai_Sriwilai_Website/">Rattanachai Sriwilai</a></p>
-        </section>  
+        <div id="courses"></div>
+
+
+
+    </section>  
+    <section class="footer">
+        <hr>
+        <p class="footer-text">© 2021 WestCoast Education <br> Coded by <a class="text-decoration" target="_blank" rel="noopener noreferrer" href="https://rsriwilai.github.io/Rattanachai_Sriwilai_Website/">Rattanachai Sriwilai</a></p>
     </section>    
 
+    <script src="./script/courses.js"></script>
     <script src="./script/script.js"></script>
 </body>
 </html>
