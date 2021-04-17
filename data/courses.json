@@ -6,6 +6,7 @@
         "description": "En beskrivning kommer att komma här",
         "length": 40,
         "category": "programmering",
+        "price": 399,
         "img": "./content/img/javascript_logo.png"
         
     },
@@ -16,6 +17,7 @@
         "description": "En beskrivning kommer att komma här",
         "length": 40,
         "category": "programmering",
+        "price": 399,
         "img": "./content/img/csharp_logo.png"
 
     },
@@ -26,6 +28,7 @@
         "description": "En beskrivning kommer att komma här",
         "length": 40,
         "category": "programmering",
+        "price": 399,
         "img": "./content/img/html_logo.png"
 
     },
@@ -36,6 +39,7 @@
         "description": "En beskrivning kommer att komma här",
         "length": 40,
         "category": "programmering",
+        "price": 399,
         "img": "./content/img/css_logo.png"
 
     },
@@ -46,6 +50,7 @@
         "description": "En beskrivning kommer att komma här",
         "length": 40,
         "category": "programmering",
+        "price": 399,
         "img": "./content/img/python_logo.png"
 
     },
@@ -56,6 +61,7 @@
         "description": "En beskrivning kommer att komma här",
         "length": 40,
         "category": "programmering",
+        "price": 399,
         "img": "./content/img/java_logo.png"
 
     }

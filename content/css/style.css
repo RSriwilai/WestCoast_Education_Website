@@ -129,6 +129,7 @@ body {
 }
 
 
+
 /*--------------ROW LANDING PAGE-----------*/
 .welcome-text-landing {
     position: relative;
@@ -245,7 +246,7 @@ body {
 
     .footer a {
         text-decoration: none;
-        color: rgb(150, 68, 53);
+        color: rgb(0, 0, 0);
     }
 
     .footer a:hover {
