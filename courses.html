@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./content/css/courses.css">
     <link rel="stylesheet" href="./content/css/style.css">  
+    <link rel="stylesheet" href="./content/css/addNewCourse.css">  
 </head>
   <body>
     <section class="container">
@@ -65,18 +66,42 @@
             </nav>
         </section>
         <section class = "products">
-            <div class = "container">
+            <div class = "products-container">
               <h2>Våra utbildningar</h2>
+              <button class="btn show-modal">Lägg till kurs</button>
+
               <div class = "product-list"></div>
             </div>
-          </section>
+        </section>
+
+
     </section>    
+    <section id="addNewCourse-container" class="modal hidden">
+      <button class="close-modal">&times;</button>
+
+      <form>
+        <input id="kursnummerIdInput" type="text" class="form-control" placeholder="Kurs id">
+        <input id="kursnummerInput" type="text" class="form-control" placeholder="kursnummer">
+        <input id="kursTitelInput" type="text" class="form-control" placeholder="Kurs titel">
+        <input id="kursBeskrivningInput" type="text" class="form-control" placeholder="Kurs beskrivning">
+        <input id="kursLängdInput" type="text" class="form-control" placeholder="Kurs längd">
+        <input id="kursKategoriInput" type="text" class="form-control" placeholder="Kurs kategori">
+        <input id="kursPrisInput" type="text" class="form-control" placeholder="Kurs pris">
+        <button class="btn" id="save">Spara</button>
+      </form>
+    </section>
+    <div class="overlay hidden"></div>
+
+
+    
 
     <section class="footer">
         <hr>
         <p class="footer-text">© 2021 WestCoast Education <br> Coded by <a class="text-decoration" target="_blank" rel="noopener noreferrer" href="https://rsriwilai.github.io/Rattanachai_Sriwilai_Website/">Rattanachai Sriwilai</a></p>
     </section>  
+    <script src="./script/product-list.js"></script>
     <script src="./script/courses.js"></script> 
+    <script src="./script/addNewCourse.js"></script> 
     <script src="./script/script.js"></script>
   </body>
 </html>

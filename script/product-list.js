@@ -1,4 +1,4 @@
-[
+const products = [
     {
         "id": 1,
         "courseNumber": 1001,
@@ -64,6 +64,5 @@
         "price": 399,
         "img": "./content/img/java_logo.png"
 
-    }
-    
-]
+    },
+];
