@@ -5,7 +5,10 @@ const productList = document.querySelector('.product-list');
 const cartList = document.querySelector('.cart-list');
 const cartTotalValue = document.getElementById('cart-total-value');
 const cartCountInfo = document.getElementById('cart-count-info');
+const btnBuy = document.querySelector('.btn-buy');
 let cartItemID = 1;
+
+
 
 eventListeners();
 
@@ -167,3 +170,4 @@ function deleteProduct(e){
     localStorage.setItem('products', JSON.stringify(updatedProducts));
     updateCartInfo();
 }
+

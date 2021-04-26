@@ -53,7 +53,7 @@ input[type=text] {
     z-index: 10;
 }
 
-.close-modal {
+.close-modal, .close-buy-modal {
     position: absolute;
     top: 10px;
     right: 30px;
@@ -63,6 +63,7 @@ input[type=text] {
     border: none;
     background: none;
 }
+
   
 
 .overlay {
@@ -74,4 +75,19 @@ input[type=text] {
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3px);
     z-index: 5;
+}
+
+
+.buy-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    background-color: rgb(255, 231, 231);
+    text-align: center;
 }

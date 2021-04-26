@@ -14,9 +14,17 @@ const kursTitelInput = document.querySelector('#kursTitelInput');
 const kursLängdInput = document.querySelector('#kursLängdInput');
 const kursKategoriInput = document.querySelector('#kursKategoriInput');
 const kursPrisInput = document.querySelector('#kursPrisInput');
+const btnBuyModal = document.querySelector('.show-buy-modal');
+const buyModal = document.querySelector('.buy-modal');
+const btnCloseBuyModal = document.querySelector('.close-buy-modal');
 
 
 //MODAL
+btnBuyModal.addEventListener('click', function() {
+    
+    buyModal.classList.remove('hidden')
+    overlay.classList.remove('hidden')
+});
 
 for (let i = 0; i < btnsOpeModal.length; i++) btnsOpeModal[i].addEventListener('click', function() {
     modal.classList.remove('hidden')
@@ -24,17 +32,19 @@ for (let i = 0; i < btnsOpeModal.length; i++) btnsOpeModal[i].addEventListener('
 });
 
 const closeModal = function() {
-    modal.classList.add('hidden')
+    buyModal.classList.add('hidden');
+    modal.classList.add('hidden');
     overlay.classList.add('hidden');
 };
 
 btnCloseModal.addEventListener('click', closeModal);
+btnCloseBuyModal.addEventListener('click', closeModal);
 
 overlay.addEventListener('click', closeModal);
 
 document.addEventListener('keydown', function(e){
 	if(e.key === "Escape") {
-        if(!modal.classList.contains('hidden')) {
+        if(!modal.classList.contains('hidden') || !buyModal.classList.contains('hidden')) {
             closeModal();
         }
 	}    
